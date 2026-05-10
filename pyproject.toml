@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bsdpose"
+version = "1.0.0"
+description = "Badminton Stroke Detection via YOLOv8-Pose + CBAM + Kinematic Features"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "BSDPose Team" }
+]
+keywords = ["badminton", "pose-estimation", "stroke-recognition", "yolov8", "cbam", "kinematic-features"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+[project.urls]
+Homepage = "https://github.com/lechan775/BSDPose"
+Repository = "https://github.com/lechan775/BSDPose.git"
+Paper = "https://github.com/lechan775/BSDPose/blob/master/paper/journal_draft.md"
+Issues = "https://github.com/lechan775/BSDPose/issues"
+
+[tool.setuptools.packages.find]
+include = ["models*", "features*", "classifier*", "train*", "eval*", "scripts*"]
