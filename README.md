@@ -15,7 +15,7 @@
 
 **BSDPose** is an open-source framework for badminton stroke recognition and quality assessment, integrating **YOLOv8-Pose** with **CBAM attention** and **kinematic feature analysis**. It supports six-class stroke classification and 0–100 quality scoring in a single multi-task pipeline.
 
-> 📄 This repository accompanies the paper *"Badminton Stroke Recognition and Quality Assessment Based on YOLOv8-Pose and Kinematic Feature Analysis"* ([湖南理工学院学报·自然科学版](https://xuebao.hnist.cn/), 2026).
+> 📄 This repository accompanies the paper *"Badminton Stroke Recognition and Quality Assessment Based on YOLOv8-Pose and Kinematic Feature Analysis"* ([湖南理工学院学报·自然科学版](https://xuebao.hnist.cn/), 2026). The BSD dataset is derived from the [VideoBadminton](https://github.com/qilimk/VideoBadminton) public benchmark.
 
 ## 🚀 Key Features
 
@@ -47,7 +47,8 @@ Requirements: `torch>=2.0`, `ultralytics>=8.0`, `opencv-python`, `pyyaml`, `nump
 <summary>1. Prepare BSD Dataset</summary>
 
 ```bash
-# Place VideoBadminton .mp4 clips under data/pose/VideoBadminton_Dataset/
+# Download VideoBadminton (https://github.com/qilimk/VideoBadminton) first, then:
+# Place .mp4 clips under data/pose/VideoBadminton_Dataset/
 python scripts/prepare_bsd.py \
     --source-root data/pose \
     --output-root data/bsd \
