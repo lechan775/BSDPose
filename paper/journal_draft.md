@@ -1,8 +1,8 @@
 # 基于YOLOv8-Pose与运动学特征分析的羽毛球击球动作识别与质量评估研究
 
-XXX, XXX, XXX
+胡竞文, 罗  正, 潘润杭, 范飞豪
 
-(School of Physical Education, Hunan Institute of Science and Technology, Yueyang 414006, China)
+(湖南理工学院 体育学院, 湖南 岳阳 414006)
 
 **摘  要**: 针对羽毛球击球动作评价主观性强的问题，提出融合YOLOv8-Pose、CBAM注意力与运动学特征的多任务识别评估方法。基于YOLOv8-Pose提取17个COCO关键点，并在PAN颈部嵌入CBAM模块；设计15维逐帧运动学特征，经16帧窗口聚合为62维向量，由多任务头联合输出6类动作识别与0—100分质量评分。基于VideoBadminton构建BSD数据集，共2743个样本、43888帧。实验表明，CBAM变体姿态mAP@0.5:0.95达83.46%，较基线提升1个百分点；本文方法分类准确率57.78%、MAE 2.20分，均优于对比方案，验证了CBAM与运动学特征的协同有效性。
 
@@ -12,7 +12,7 @@ XXX, XXX, XXX
 
 ## Badminton Stroke Recognition and Quality Assessment Based on YOLOv8-Pose and Kinematic Feature Analysis
 
-XXX, XXX, XXX
+HU Jingwen, LUO Zheng, PAN Runhang, FAN Feihao
 
 (School of Physical Education, Hunan Institute of Science and Technology, Yueyang 414006, China)
 
@@ -26,7 +26,7 @@ XXX, XXX, XXX
 
 基金项目: 国家级大学生创新创业项目(202510543049)
 
-作者简介: XXX（XXXX-），性别，职称/学位，研究方向为计算机视觉与体育动作分析. E-mail: XXX
+作者简介: 胡竞文(XXXX-)，女，硕士研究生，研究方向为计算机视觉与体育动作分析. E-mail: XXX
 
 通信作者: 罗  正, 男, 硕士, 讲师. 主要研究方向: 羽毛球教学与训练、运动训练学
 
