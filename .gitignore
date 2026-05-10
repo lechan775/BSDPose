@@ -1,0 +1,42 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Training artifacts
+logs/
+results/
+*.pt
+*.pth
+checkpoints/
+
+# Data (large files managed externally)
+data/bsd/images/
+data/bsd/labels/
+data/pose/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Paper build artifacts
+paper/figures/
+*.aux
+*.log
+*.out
+*.pdf
