@@ -213,7 +213,7 @@ VideoBadminton (.mp4)
 ```bibtex
 @article{bsdpose2026,
   title     = {{基于YOLOv8-Pose与运动学特征分析的羽毛球击球动作识别与质量评估研究}},
-  author    = {XXX and XXX and 罗正},
+  author    = {胡竞文 and 罗正 and 潘润杭 and 范飞豪},
   journal   = {湖南理工学院学报(自然科学版)},
   year      = {2026},
   note      = {Submitted}
