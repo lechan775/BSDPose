@@ -15,7 +15,7 @@
 
 **BSDPose** is an open-source framework for badminton stroke recognition and quality assessment, integrating **YOLOv8-Pose** with **CBAM attention** and **kinematic feature analysis**. It supports six-class stroke classification and 0–100 quality scoring in a single multi-task pipeline.
 
-> 📄 This repository accompanies the paper *"Badminton Stroke Recognition and Quality Assessment Based on YOLOv8-Pose and Kinematic Feature Analysis"* (湖南理工学院学报·自然科学版, 2026).
+> 📄 This repository accompanies the paper *"Badminton Stroke Recognition and Quality Assessment Based on YOLOv8-Pose and Kinematic Feature Analysis"* ([湖南理工学院学报·自然科学版](https://xuebao.hnist.cn/), 2026).
 
 ## 🚀 Key Features
 
